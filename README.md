@@ -2,6 +2,9 @@
 
 <br>Liste des composants réutilisables identifiés:
 <br>
-L’architecture HTML proposée:
-Nomenclature BEM choisie:
-Système de tokens (variables) mis en place:
+<br>L’architecture HTML proposée:
+<br>
+<br>Nomenclature BEM choisie:
+<br>
+<br>Système de tokens (variables) mis en place:
+<br>
