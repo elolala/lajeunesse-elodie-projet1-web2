@@ -3,7 +3,7 @@
 ## Système de nomenclature: BEM
 ### J'ai utilisé la nomenclature BEM pour organiser mon CSS puisqu'elle est plus lisible et structurée. C'est une nomenclature qui facilite la réutilisation des styles. J'ai eu de la facilité à me repérer lors de mon travail.
 
-## Mes variables CSS et design tokens
+## Mes variables CSS et logique d'organisation
 ### J’ai utilisé des variables CSS pour gérer les couleurs principales du site :
 
 #### :root {
@@ -12,6 +12,12 @@
 ####  --color-secondary: #E9C46A;
 ####  --color-accent: #F4A261;
 #### }
+
+### Logique d'organisation
+- bg-dark -> fond principal foncé
+- primary -> couleur principale du site
+- secondary -> boutons secondaires
+- accent -> éléments importants (boutons, bordures)
 <br>Nomenclature BEM choisie:
 <br>
 <br>Système de tokens (variables) mis en place:
