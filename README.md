@@ -28,3 +28,12 @@
 - ul et li (listes)
 - div (divisions)
 - section (sections)
+
+## Utilisation du Flexbox
+### J'ai utilisé Flexbox pour organiser les layouts :
+- Navbar
+- Hero
+- Cartes
+
+  ### Pourquoi?
+  - Pour permettre un alignement facile des éléments ainsi que c'est une méthode simple et efficace.
