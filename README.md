@@ -18,7 +18,13 @@
 - primary -> couleur principale du site
 - secondary -> boutons secondaires
 - accent -> éléments importants (boutons, bordures)
-<br>Nomenclature BEM choisie:
-<br>
-<br>Système de tokens (variables) mis en place:
-<br>
+
+## Liste des composantes réutilisables
+### Voici les composantes que j'ai créés et réutilisés :
+- header
+- hero
+- products__card
+- about__card
+- temoignage__card
+- hours__card
+- boutons (hero__btn, header__bouton)
