@@ -6,12 +6,12 @@
 ## Mes variables CSS et design tokens
 ### J’ai utilisé des variables CSS pour gérer les couleurs principales du site :
 
-:root {
-  --color-bg-dark: #264653;
-  --color-primary: #2A9D8F;
-  --color-secondary: #E9C46A;
-  --color-accent: #F4A261;
-}
+#### :root {
+####  --color-bg-dark: #264653;
+####  --color-primary: #2A9D8F;
+####  --color-secondary: #E9C46A;
+####  --color-accent: #F4A261;
+#### }
 <br>Nomenclature BEM choisie:
 <br>
 <br>Système de tokens (variables) mis en place:
