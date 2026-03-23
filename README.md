@@ -21,9 +21,4 @@
 
 ## Liste des composantes réutilisables
 ### Voici les composantes que j'ai créés et réutilisés :
-- header
-- hero
-- products__card
-- about__card
-- temoignages__card
-- hours__card
+- <h1> à <h3>
