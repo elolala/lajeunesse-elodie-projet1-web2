@@ -1,0 +1,1275 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --color-bg-dark: #264653;
+    --color-primary: #2A9D8F;
+    --color-secondary: #E9C46A;
+    --color-accent: #F4A261;
+    --color-text: #1A2E1A;
+}
+
+p {
+    font-family: "Poppins";
+}
+
+h1 {
+    font-family: "Ranchers";
+}
+
+body {
+    margin: 0;
+}
+
+.header__navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80px;
+    padding: 10px 60px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: var(--color-bg-dark, #264653);
+}
+
+.header__logo {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    border-radius: 4px;
+}
+
+.header__logo img {
+    width: 46px;
+    height: 46px;
+}
+
+.header__logo span {
+    display: flex;
+    width: 214px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-accent, #F4A261);
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 55% */
+}
+
+.header__menu {
+    display: flex;
+    padding: 2px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    list-style: none;
+}
+
+.header__menu a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.header__bouton {
+    display: flex;
+    padding: 10px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--color-accent, #F4A261);
+    align-self: stretch;
+    color: var(--color-text, #1A2E1A);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.hero {
+    display: flex;
+    height: 729px;
+    padding: 60px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    background: url("/images/image_1.png") lightgray 50% / cover no-repeat;
+}
+
+.hero__content {
+    flex: 1;
+}
+
+.hero h1 {
+    color: var(--color-bg-dark, #264653);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 66.667% */
+}
+
+.hero span {
+    color: var(--color-primary, #2A9D8F);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.hero p {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    /* 126.316% */
+}
+
+.hero__buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.hero__btn1 {
+    display: flex;
+    width: 240px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--color-secondary, #E9C46A);
+    color: var(--color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.hero__btn2 {
+    display: flex;
+    width: 240px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--color-primary, #2A9D8F);
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.hero__img-top {
+    flex: 1 0 0;
+    align-self: stretch;
+    border: 1px solid var(--color-accent, #F4A261);
+    background: url(images/image_2.png) lightgray 50% / cover no-repeat;
+}
+
+.hero__images {
+    display: flex;
+    height: 400px;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 31px;
+    border: 5px solid var(--color-accent, #F4A261);
+}
+
+.about {
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: #264653;
+}
+
+.about__title {
+    width: 520px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+}
+
+.about__text {
+    width: 520px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.about__cards {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.about__card {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #EBEFF0;
+}
+
+.about__card img {
+    display: flex;
+    padding: 12px 10px 7px 9px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 6px;
+    background: var(--color-primary, #2A9D8F);
+}
+
+.about__card h3 {
+    align-self: stretch;
+    color: #264653;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 140% */
+}
+
+.about__card p {
+    align-self: stretch;
+    color: #264653;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.about__space {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.products {
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.products__container {
+    display: flex;
+    height: 340px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.products__text__container {
+    display: flex;
+    padding: 12px 12px 24px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.products__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+}
+
+.products__cards {
+    display: flex;
+    height: 508px;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.products__card {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.products__card img {
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #EBEFF0;
+}
+
+.products__name {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.products__card p {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 140% */
+}
+
+.products__card--active {
+    display: flex;
+    width: 398px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border: 2px solid var(--color-accent, #F4A261);
+}
+
+.products__card__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.products__card__2 p {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 140% */
+}
+
+.products__card__2 img {
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #EBEFF0;
+}
+
+.heures {
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: #EBEFF0;
+}
+
+.heures__titles__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.heures__title {
+    width: 520px;
+    color: var(--color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+}
+
+.heures__subtitle {
+    width: 520px;
+    color: var(--color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.heures__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.heures__cards__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.heures__card {
+    display: flex;
+    padding: 12px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex: 1 0 0;
+}
+
+.heures__card h3 {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+.heures__card p {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 180% */
+}
+
+.heures__frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.heures__photo__frame {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.heures__photo__frame p {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    color: var(--color-bg-dark, #264653);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    /* 312.5% */
+}
+
+.temoignages {
+    display: flex;
+    padding: 60px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.temoignages__title {
+    align-self: stretch;
+    color: var(--color-bg-dark, #264653);
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+}
+
+.temoignages__cards {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+.temoignages__card {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.temoignages__card img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.temoignages__text {
+    font-family: "Poppins";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.temoignages__name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--color-bg-dark, #264653);
+    text-overflow: ellipsis;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.temoignages_container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.temoignages_user {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.temoignages__avatar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.temoignages__frame {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.team {
+    display: flex;
+    padding: 60px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    background: var(--color-bg-dark, #264653);
+}
+
+.team__avatar {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 13px 14px 14px 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--color-accent, #F4A261);
+}
+
+.team__avatar img {
+    width: 73px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.team__texte__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+.team h2 {
+    align-self: stretch;
+    color: var(--color-accent, #F4A261);
+    font-family: "Ranchers";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.team__texte__container p {
+    align-self: stretch;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.team__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.team__primary {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--color-accent, #F4A261);
+}
+
+.team__primary p {
+    color: var(--color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.team__members {
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: var(--color-bg-dark, #264653);
+}
+
+.team__member {
+    display: flex;
+    padding: 12px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.team__frame__image {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    background: var(--color-secondary, #E9C46A);
+}
+
+.team__members img {
+    width: 118px;
+    height: 118px;
+    flex-shrink: 0;
+}
+
+.team__frame__texte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.team__members h3 {
+    align-self: stretch;
+    color: var(--color-secondary, #E9C46A);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.team__members p {
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.team__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.prix {
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.prix__container__1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.prix__container__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.prix__container__2 h2 {
+    width: 520px;
+    color: var(----color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+}
+
+.prix__container__2 p {
+    width: 520px;
+    color: var(----color-bg-dark, #264653);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.pricing__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.pricing__cards__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.pricing__card {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.pricing__card h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.50);
+    text-overflow: ellipsis;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.pricing__card p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: var(----color-bg-dark, #264653);
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 128.571% */
+}
+
+.pricing__card span {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: var(----color-bg-dark, #264653);
+    text-overflow: ellipsis;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.joindre {
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: #EBEFF0;
+}
+
+.joindre__titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.joindre h2 {
+    width: 520px;
+    color: var(----color-accent, #F4A261);
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+}
+
+.joindre__adresse {
+    display: flex;
+    align-items: center;
+    gap: 214px;
+}
+
+.joindre__adresse__map {
+    display: flex;
+    width: 218px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.joindre h3 {
+    align-self: stretch;
+    color: var(----color-accent, #F4A261);
+    font-family: "Ranchers";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 200% */
+}
+
+.joindre p {
+    align-self: stretch;
+    color: var(----color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.joindre__map {
+    width: 404px;
+    height: 293px;
+}
+
+.joindre img {
+    width: 404px;
+    height: 293px;
+    aspect-ratio: 91/66;
+    border-radius: 8px;
+    border: 1px solid var(----color-bg-dark, #264653);
+    background: url(<path-to-image>) lightgray 0px 0px / 100% 99.947% no-repeat;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    background: #EBEFF0;
+}
+
+.contact h2 {
+    color: var(----color-accent, #F4A261);
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 200% */
+}
+
+.contact__information {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.contact__input {
+    display: flex;
+    width: 313.333px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.contact h3 {
+    align-self: stretch;
+    color: var(----color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.contact_buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.contact__btn1 {
+    display: flex;
+    width: 240px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(----color-bg-dark, #264653);
+    color: var(----color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.contact__btn2 {
+    display: flex;
+    width: 240px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(----color-accent, #F4A261);
+    color: var(----color-bg-dark, #264653);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+.fin__page {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    background: #264653;
+}
+
+.fin__faq {
+    display: flex;
+    width: 1051px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fin_colonne {
+    display: flex;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.separateur {
+    display: flex;
+    width: 65px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
+}
+
+.liens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
+}
+
+.liens__trois {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.nous {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
+}
+
+.nous span {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.suivre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 175% */
+}
+
+.suivre span {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.fin__map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    align-self: stretch;
+}
+
+.ou {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: "Ranchers";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+.fin__image {
+    height: 520.308px;
+    align-self: stretch;
+}
+
+.fin__page img {
+    width: 1301px;
+    height: 520.308px;
+    aspect-ratio: 1301.00/520.31;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
