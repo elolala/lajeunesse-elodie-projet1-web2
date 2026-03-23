@@ -4,7 +4,7 @@
 ### J'ai utilisé la nomenclature BEM pour organiser mon CSS puisqu'elle est plus lisible et structurée. C'est une nomenclature qui facilite la réutilisation des styles. J'ai eu de la facilité à me repérer lors de mon travail.
 
 ## Mes variables CSS et design tokens
-J’ai utilisé des variables CSS pour gérer les couleurs principales du site :
+### J’ai utilisé des variables CSS pour gérer les couleurs principales du site :
 
 :root {
   --color-bg-dark: #264653;
