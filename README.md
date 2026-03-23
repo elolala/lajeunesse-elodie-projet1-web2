@@ -37,3 +37,6 @@
 
   ### Pourquoi?
   - Pour permettre un alignement facile des éléments ainsi que c'est une méthode simple et efficace.
+ 
+## Fonction CSS fluides
+J'ai utilisé clamp dans mon CSS une seule fois puisqu'elle était déjà intégré dans le code du figma. Elle sert à adapter les éléments selon la taille de l'écran ainsi que de rendre les tailles responsives.
