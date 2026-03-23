@@ -25,6 +25,5 @@
 - hero
 - products__card
 - about__card
-- temoignage__card
+- temoignages__card
 - hours__card
-- boutons (hero__btn, header__bouton)
