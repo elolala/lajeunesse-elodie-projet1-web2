@@ -1,6 +1,6 @@
 # lajeunesse-elodie-projet1-web2
 
-## Système de nomenclature: BEM
+## Système de nomenclature
 ### J'ai utilisé la nomenclature BEM pour organiser mon CSS puisqu'elle est plus lisible et structurée. C'est une nomenclature qui facilite la réutilisation des styles. J'ai eu de la facilité à me repérer lors de mon travail.
 
 ## Mes variables CSS et logique d'organisation
@@ -39,4 +39,17 @@
   - Pour permettre un alignement facile des éléments ainsi que c'est une méthode simple et efficace.
  
 ## Fonction CSS fluides
-J'ai utilisé clamp dans mon CSS une seule fois puisqu'elle était déjà intégré dans le code du figma. Elle sert à adapter les éléments selon la taille de l'écran ainsi que de rendre les tailles responsives.
+### J'ai utilisé clamp dans mon CSS une seule fois puisqu'elle était déjà intégré dans le code du figma. Elle sert à adapter les éléments selon la taille de l'écran ainsi que de rendre les tailles responsives.
+
+## Défis techniques et solutions
+### Problèmes rencontrés :
+- Mauvaise structure de départ. Je n'avais pas utilisé la nomenclature BEM donc j'ai dû tout changer.
+- Problème d'alignement avec Flexbox. J'ai encore de la difficulté avec mes alignements.
+- Variable CSS mal écrites (---- au lieu de --)
+- Images mal positionnés
+
+### Solutions :
+- Utiliser la nomenclature BEM
+- Ajoût de conteneurs
+- Corrections des variables CSS
+- Améliorer mon Flexbox (encore de la difficulté)
