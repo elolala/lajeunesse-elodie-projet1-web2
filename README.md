@@ -21,4 +21,10 @@
 
 ## Liste des composantes réutilisables
 ### Voici les composantes que j'ai créés et réutilisés :
-- <h1> à <h3>
+- h1 et h3 (titres)
+- p (paragraphes)
+- a (liens)
+- img (images)
+- ul et li (listes)
+- div (divisions)
+- section (sections)
