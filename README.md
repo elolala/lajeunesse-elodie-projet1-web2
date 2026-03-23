@@ -53,3 +53,13 @@
 - Ajoût de conteneurs
 - Corrections des variables CSS
 - Améliorer mon Flexbox (encore de la difficulté)
+
+## Utilisation de L'IA
+### Outil utilisé : ChatGPT version GPT 5.3
+### Date : Mars 2026
+### Utilisation :
+#### J'ai utilisé l'IA pour :
+- Comprendre les classes
+- Reperé des erreurs dans mon CSS/Comprendre mes erreurs
+### Prompt Exemple :
+- Comment utiliser et écrire les classes dans le bon ordre ?
