@@ -1,6 +1,6 @@
 # lajeunesse-elodie-projet1-web2
 
-<br>Système de nomenclature: BEM
+<br> ## Système de nomenclature: BEM
 J'ai utilisé la nomenclature BEM pour organiser mon CSS puisqu'elle est plus lisible et structurée. C'est une nomenclature qui facilite la réutilisation des styles. J'ai eu de la facilité à me repérer.
 <br>
 <br>L’architecture HTML proposée:
